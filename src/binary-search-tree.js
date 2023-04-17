@@ -108,13 +108,6 @@ class BinarySearchTree {
         node.data = maxLeft.data;
         node.left = removeNode(node.left, maxLeft.data);
         return node;
-        // let minRight = node.right;
-        // while(minRight.left) {
-        //   minRight = minRight.left;
-        // }
-        // node.data = minRight.data;
-        // node.right = removeNode(node.right, minRight.data);
-        // return node;
       }
     }
   }
